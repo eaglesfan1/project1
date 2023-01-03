@@ -1,0 +1,45 @@
+@font-face{
+				font-family:'CHANTELLI ANTIQUA';
+				src: url(../fonts/Chantelli_Antiqua-webfont.woff) format('woff'),
+				     url(../fonts/Chantelli_Antiqua-webfont.ttf) format('truetype');		     
+
+		}
+
+h1{
+	font-size: 25px;
+	font-family: 'CHANTELLI ANTIQUA';
+}
+
+
+p{
+	text-transform: uppercase;
+	letter-spacing: normal;
+	word-spacing: 15px;
+}
+
+
+
+/*p{
+			font-weight: 600;
+			font-family: Arial;
+			font-size: 30px;
+			font-style: italic;
+			text-decoration: none;
+		}*/
+
+		/*h1{
+			color: red;
+		}*/
+
+
+      
+		
+
+		h1{
+			font-size: 25px;
+			font-family: 'CHANTELLI ANTIQUA';
+			font-family: 'Lemonada', cursive;
+		}
+
+
+

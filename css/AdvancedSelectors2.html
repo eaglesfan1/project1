@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Advanced Selectors 2</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		p{
+			font-family: Arial;
+			font-size: 20px;
+		}
+		/*input[type = checkbox] {
+			height: 50px;
+			}*/
+			/*a[href ^= https] {
+				background: #ffff00;
+			}*/
+			/*a[href $= org] {
+				background: #ffff00;
+			}*/
+			a[href *= site] {
+				background: #ffff00;
+			}
+
+	</style>
+</head>
+<body>
+	<p>
+	   <input type="text">
+	   <input type="text">
+	</p>
+
+	<p>
+	   <input type="checkbox">
+	</p>
+
+	<p>
+		 <a href="https://websiteworld.org" target="_blank">Link 1</a>	
+	</p>
+
+	<p>
+		 <a href="https://thefreesite.com" target="_blank">Link 2</a> 
+	</p>
+</body>
+</html>

@@ -1,0 +1,30 @@
+/*input{
+    height: 30px;
+    width: 200px;
+}
+.focused{
+    background: #efefef;
+    border: 1px solid #999;
+    box-shadow: 0 0 10px #d3d3d3;
+    outline: none;
+}*/
+
+/* #block{
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+} */
+/* #block-2{
+	width: 300px;
+	height: 100px;
+	background-color: blue;
+} */
+
+div{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+}
+.circle{
+    border-radius: 50%;
+}

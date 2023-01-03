@@ -1,0 +1,9 @@
+.container{
+	border: 2px solid #000;
+}
+
+.row>div{
+	min-height: 100px;
+	background-color: #ffff00;
+	border: 1px solid #000;
+}

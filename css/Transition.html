@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transition</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.block{
+			width: 200px;
+			height: 200px;
+			background: yellow;
+			border: 10px solid grey;
+			margin: 100px 0 0 200px;
+			transition: all 2s 2s linear;
+			font-size: 30px;
+			text-align: center;
+		}
+		.block:hover{
+			
+			transform: rotateY(180deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="block">Hello!</div>
+</body>
+</html>

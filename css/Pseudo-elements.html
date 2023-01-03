@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pseudo Elements</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		/*p::before{
+			content: 'Start';
+			color: orange;
+			font-size: 20px;
+			text-decoration: underline;
+			display: block;
+			width: 100%;
+			height: 50px;
+			background: yellow;
+		}*/
+		p::after{
+			content: '.';			
+			font-size: 0;	
+			width: 100%;
+			height: 1px;
+			border-top: 5px solid #ccc;
+			display: block;		
+			margin-top: 15px;		
+		}	
+		/*p::first-line{
+			color: blue;
+		}*/
+		p::first-letter{
+			font-size: 30px;
+			font-family: Arial;
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi non arcu risus quis varius quam quisque id diam. Id aliquet risus feugiat in. Volutpat diam ut venenatis tellus in metus vulputate eu. Magna fringilla urna porttitor rhoncus dolor purus non. Dictumst quisque sagittis purus sit amet volutpat consequat mauris. Ultrices in iaculis nunc sed. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Interdum varius sit amet mattis. Suscipit adipiscing bibendum est ultricies integer. Dictum varius duis at consectetur lorem donec massa sapien. Etiam erat velit scelerisque in dictum non. Non nisi est sit amet facilisis magna. Orci nulla pellentesque dignissim enim sit amet. Mauris a diam maecenas sed enim. Adipiscing elit pellentesque habitant morbi tristique senectus et netus. Purus sit amet volutpat consequat. Amet purus gravida quis blandit. Odio morbi quis commodo odio aenean. Nisl tincidunt eget nullam non nisi.</p>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi non arcu risus quis varius quam quisque id diam. Id aliquet risus feugiat in. Volutpat diam ut venenatis tellus in metus vulputate eu. Magna fringilla urna porttitor rhoncus dolor purus non. Dictumst quisque sagittis purus sit amet volutpat consequat mauris. Ultrices in iaculis nunc sed. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Interdum varius sit amet mattis. Suscipit adipiscing bibendum est ultricies integer. Dictum varius duis at consectetur lorem donec massa sapien. Etiam erat velit scelerisque in dictum non. Non nisi est sit amet facilisis magna. Orci nulla pellentesque dignissim enim sit amet. Mauris a diam maecenas sed enim. Adipiscing elit pellentesque habitant morbi tristique senectus et netus. Purus sit amet volutpat consequat. Amet purus gravida quis blandit. Odio morbi quis commodo odio aenean. Nisl tincidunt eget nullam non nisi.</p>
+</body>
+</html>
